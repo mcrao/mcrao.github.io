@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Merriweather:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;700&display=swap" rel="stylesheet">
+
+    <title>Manoj Chandrashekar - Resume</title>
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            line-height: 1.42857143;
+            color: #333;
+            background-color: #f5f5f5;
+            margin: 0;
+            padding: 0;
+        }
+        .resume-container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 40px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            border: 1px solid #ddd;
+            border-radius: 8px;
+        }
+        h1, h2 {
+            font-family: 'Lato', sans-serif;
+        }
+        h1 {
+            text-align: center;
+            margin-bottom: 1px;
+        }
+        .contact-info {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        h2 {
+            border-bottom: 1px solid #333;
+            padding-bottom: 1px;
+        }
+        .education, .experience, .project {
+            margin-bottom: 20px;
+        }
+        .institution, .job-title {
+            font-weight: bold;
+        }
+        .date-line {
+            display: flex;
+            justify-content: space-between;
+            align-items: baseline;
+            margin-bottom: 5px;
+        }
+        .date {
+            font-style: italic;
+        }
+        ul {
+            margin-top: 5px;
+            padding-left: 20px;
+        }
+        p, li {
+            text-align: justify;
+        }
+        /* Navbar styles */
+        .navbar {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: space-between;
+            width: 80%;
+            background-color: transparent;
+            overflow: auto;
+            margin: 0 auto;
+            margin-top: 2rem;
+            margin-bottom: 2rem;
+            border-radius: 40px;
+            padding: 1rem;
+            position: sticky;
+        }
+        .navbar a {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            text-align: left;
+            padding: 20px;
+            color: rgb(84, 84, 86);
+            text-decoration: none;
+            font-size: 17px !important;
+            font-family: "Space Grotesk", sans-serif;
+        }
+        .navbar a:hover {
+            color: rgb(254, 73, 73);
+        }
+        .navbar i {
+            margin-right: 10px;
+            align-items: center;
+        }
+        @media screen and (max-width: 500px) {
+            .navbar a {
+                float: left;
+                display: block;
+            }
+            .resume-container {
+                padding: 20px;
+            }
+        }
+    </style>
+</head>
+<body>    
+    <div class="navbar">
+        <a href="../index.html"><i class="fa fa-fw fa-home"></i> Home</a>
+        <a href="./notes.html"><i class="bi bi-journals"></i> My Notes</a>
+        <a href="./contact.html"><i class="fa fa-fw fa-envelope"></i> Contact</a>
+        <a class="active" href="resume.html"><i class="fa fa-fw fa-file-text-o"></i> Resume</a>
+    </div>
+
+    <div class="resume-container">
+        <h1>MANOJ CHANDRASHEKAR</h1>
+        <div class="contact-info">
+            Birmingham, Alabama • +1-(205) 401-2851 • <a href="mailto:manojcrao1995@gmail.com">manojcrao1995@gmail.com</a> • <a href="https://www.linkedin.com/in/themanojchandrashekar/" target="_blank">LinkedIn</a>
+        </div>
+
+        <h2>EDUCATION</h2>
+        <div class="education">
+            <div class="date-line">
+                <div class="institution">University of Alabama at Birmingham • Alabama, USA</div>
+                <div class="date">Aug 2023 - Dec 2024</div>
+            </div>
+            <div class="date-line">
+                <div style="font-style: italic;">Master in Science, Data Science</div>
+                <div>GPA: 4.0/4.0</div>
+            </div>
+            <div style="margin-left: 2em;">Relevant Courses: Advanced Algorithms, Machine Learning, Deep Learning, Statistics for Managers, Database Applications, Artificial Intelligence</div>
+        </div>
+        <div class="education">
+            <div class="date-line">
+                <div class="institution">The National Institute of Engineering Mysore • Karnataka, India</div>
+                <div class="date">Aug 2013 - July 2017</div>
+            </div>
+            <div class="date-line">
+                <div style="font-style: italic;">Bachelor of Engineering, Information Science</div>
+                <div>GPA: 8.0/10.0</div>
+            </div>
+            <div style="margin-left: 2em;">Relevant Courses: Database Management System, Cloud Computing, Algorithms, Object Oriented Programming Language, Operating System, Linux</div>
+        </div>
+
+        <h2>SKILLS AND TOOLS</h2>
+        <p><strong>Skills:</strong> Predictive Analytics, Discriminant Analysis, Neural Network, Matrix Factorization, Collaborative Filtering, Cosine Similarity, Clustering, Linear Regression, Forecasting, Logistic Regression, Classification, Bayesian Analysis, Distributed Computing, Data Modeling, Data Analysis, Orchestration, Statistics, Data Migration, Data Warehousing, Data Visualization</p>
+        <p><strong>Tools:</strong> Python, SQL, Spark, Spark Streaming, Azure Databricks, ADLS Gen2, Airflow, PyTorch, TensorFlow, Tableau, Docker, Kubernetes, Kafka, MongoDB, PinoDB, Snowflake, Dremio, Scikit-Learn, Pandas, REST API, Postman, Git, MS-Excel, Amazon S3, Amazon Redshift, AWS Athena, AWS Glue</p>
+
+        <h2>INTERNSHIP</h2>
+        <div class="experience">
+            <div class="date-line">
+                <div class="job-title">7-Eleven, Inc • Machine Learning Intern • Irving, TX</div>
+                <div class="date">June 2024 - Aug 2024</div>
+            </div>
+            <ul>
+                <li>Developed a brand affinity model to aid the marketing team in delivering personalized promotions, resulting in a 32% increase in customer buying frequency and a 15% rise in brand sales. Conducted EDA to resolve data inconsistencies and identified root causes for negative total sales amounts, addressing issues contributing to 1% theft in 2024.</li>
+            </ul>
+        </div>
+
+        <h2>WORK EXPERIENCE</h2>
+        <div class="experience">
+            <div class="date-line">
+                <div class="job-title">7-Eleven, Inc • Lead Data Engineer</div>
+                <div class="date">Jan 2022 - July 2023</div>
+            </div>
+            <ul>
+                <li>Spearheaded a transformative 60-day project, building a new Data Architecture, migrating pipelines to PySpark on Azure Databricks, and collaborating with cross-functional teams, resulting in a 90% performance boost, 30% faster data ingestion, improved reliability, and a significant monthly cost recovery of $500,000 bi-weekly.</li>
+            </ul>
+        </div>
+        <div class="experience">
+            <div class="date-line">
+                <div class="job-title">Concentrix iLabs, LTD • Senior Data Engineer</div>
+                <div class="date">May 2021 - Jan 2022</div>
+            </div>
+            <ul>
+                <li>Developed and implemented efficient ETL strategies, CDC techniques, and Apache Spark transformations to optimize data loading from Sybase to target systems (MySQL, Vertica, Oracle, Vector, Hive), streamline extraction through Kafka, and pipeline processed data to the Data Warehouse. These enhancements resulted in a 20% reduction in data load time, a 30% improvement in data processing speed, and a 15% increase in actionable insights generated for the Data Visualization team.</li>
+            </ul>
+        </div>
+        <div class="experience">
+            <div class="date-line">
+                <div class="job-title">Mindtree LTD • Senior Data Engineer</div>
+                <div class="date">Nov 2017 - May 2021</div>
+            </div>
+            <ul>
+                <li>Led the development and implementation of an innovative data integration strategy, collaborating with cross-functional teams to design automated ETL processes using Glue pipelines. Leveraged Zeppelin for efficient data wrangling on raw data stored in Amazon S3, reducing manual effort by 70%, processing time by 30%, and improving query execution times by 40% through the automated transfer of data into a SQL DB of ORC format, ultimately enhancing accuracy, performance, and analysis capabilities.</li>
+            </ul>
+        </div>
+
+        <h2>PROJECTS</h2>
+        <div class="project">
+            <p><strong>Basket Recommendation System:</strong> Collaborated with 7-Eleven's data science team to develop an AI-driven recommendation system that provides personalized product suggestions based on customer shopping habits, resulting in a 25% increase in average order value and a 15% boost in customer loyalty.</p>
+        </div>
+        <div class="project">
+            <p><strong>LeafScan - AI Powered Plant Disease Detection System:</strong> Developed a CNN-based plant disease detection system with data augmentation and preprocessing techniques. Built a user-friendly app for farmers to diagnose diseases by uploading leaf images, enabling informed decision-making and proactive management.</p>
+        </div>
+
+        <h2>HONORS & CERTIFICATES</h2>
+        <ul>
+            <li>Honored with Joseph Volker International Scholarship Award</li>
+            <li>Azure: Azure Fundamentals, Azure Developer</li>
+            <li>Databricks: Lakehouse Fundamentals, Platform Administrator, Associate Developer</li>
+            <li>Leadership & Team Development, International Business Management Institute, Berlin</li>
+        </ul>
+    </div>
+</body>
+</html>
