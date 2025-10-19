@@ -9,7 +9,7 @@ showDateUpdated : false
 showHeadingAnchors : false
 showPagination : false
 showReadingTime : false
-showTableOfContents : true
+showTableOfContents : false
 showTaxonomies : false 
 showWordCount : false
 showSummary : false
@@ -22,10 +22,16 @@ layoutBackgroundHeaderSpace: false
 
 
 ---
-Hi there! My name is Manoj Chandrashekar. I am a data engineer with a strong foundation in Information Science, having received my Bachelor's degree from The National Institute of Engineering in India. Currently, I am pursuing my Master of Science in Data Science at the University of Alabama at Birmingham.
+### 👋 Hey, I’m Manoj
 
-Since 2017, I have been deeply involved in the data engineering field, working on a variety of data architecture and machine learning projects across industries like retail and technology. My experience spans the entire data lifecycle, from ETL processes to the development of AI-driven systems, and my current focus is on harnessing the power of cloud platforms like Azure Databricks and orchestrating large-scale data migrations. My work at 7-Eleven, Mindtree and Concentrix iLabs has given me the opportunity to lead transformative projects that have significantly boosted performance and efficiency.
+I’m an ML & GenAI Engineer trying to make machines less confused about context than humans are.
 
-I enjoy driving as I am car enthusiast 🏎️💨 & I like cafe hopping ☕️. If you're in the Birmingham area and looking for a good restaurant, don't hesitate to reach out! 🙂
+My journey began with a degree in Information Science from The National Institute of Engineering, followed by a Master’s in Data Science from The University of Alabama at Birmingham. I’m currently leveling up through the MIT xPro Mini Masters in Statistics and Data Science, because statistics is still the quiet superpower behind every good AI model.
 
-I have also compiled a set of notes from the various courses and materials I have studied throughout my career. Feel free to check them out for more information.
+I spent the first few years of my career as a Data Engineer, building and scaling data systems for 7-Eleven, Mindtree, and Concentrix iLabs — learning that data pipelines are like coffee machines: you only notice them when they break.
+
+These days, I’ve taken that foundation into Generative AI — where I build things that think back. From crafting RAG pipelines that actually retrieve what matters, to cloning NotebookLM just to see if I could, to building my own AI-powered CLI console, I enjoy turning large language models into useful, practical companions.
+
+When I’m not fine-tuning prompts or debugging embeddings, you’ll probably find me driving somewhere fast 🏎️💨 or slowing down over a cup of coffee ☕️.
+
+If you ever want to talk data, GenAI, or the best café in Dallas area — I’m all ears.

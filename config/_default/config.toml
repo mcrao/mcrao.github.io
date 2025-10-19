@@ -5,6 +5,7 @@
 theme = "blowfish" # UNCOMMENT THIS LINE
 baseURL = "https://mcrao.github.io/"
 defaultContentLanguage = "en"
+disableLanguages = ['pt-pt']
 
 # pluralizeListTitles = "true" # hugo function useful for non-english languages, find out more in  https://gohugo.io/getting-started/configuration/#pluralizelisttitles
 
@@ -16,20 +17,21 @@ buildFuture = false
 
 enableEmoji = true
 
-# googleAnalytics = "G-XXXXXXXXX"
+googleAnalytics = "G-63MWPTT5MM"
 
 [pagination]
-  pagerSize = 100
+  pagerSize = 27
 
 [params.author]
   name = "Manoj"
   image = "blowfish_pic.png"
-  imageQuality = 96
-  headline = "AI Engineer"
+  headline = "ML Engineer"
   subtitle = "🧠 GenAI · LLM · Agents"
   bio = "ML Engineer @ 7-Eleven"
   links = [
-  { github = "https://github.com/username" }
+  { bluesky = "https://bsky.app/profile/mchra0.bsky.social" },
+  { github = "https://github.com/mcrao" },
+  { linkedin = "https://linkedin.com/in/themanojchandrashekar" }
   ]
 
 [imaging]

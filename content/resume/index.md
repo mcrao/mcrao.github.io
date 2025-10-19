@@ -37,7 +37,7 @@ layoutBackgroundHeaderSpace: false
         <tr>
             <td><img class="customEntitityLogo" src="mit.png"/></td>
             <td><a href="https://micromasters.mit.edu/ds/" target="_blank">MIT xPro</a></td>
-            <td>Statistics and Data Science</td>
+            <td>Mini Masters in Statistics & Data Science</td>
             <td>2025</td>
         </tr>
         <tr>
@@ -50,7 +50,7 @@ layoutBackgroundHeaderSpace: false
             <td><img class="customEntitityLogo" src="nie.png"/></td>
             <td><a href="https://www.nie.ac.in" target="_blank">National Institute of Enginering</a></td>
             <td>Bachelors in Information Science</td>
-            <td>2024</td>
+            <td>2017</td>
         </tr>
     </tbody>
 </table>
@@ -114,7 +114,7 @@ layoutBackgroundHeaderSpace: false
         <tr>
             <td><img class="customEntitityLogo" src="711.png"/></td>
             <td><a href="https://www.7-eleven.com/" target="_blank">7-Eleven, Inc</a></td>
-            <td>Machine Learning Intern Intern</td>
+            <td>Machine Learning Intern</td>
             <td>2024 (Summer)</td>
             <td>Full Time</td>
         </tr>

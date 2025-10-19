@@ -20,15 +20,15 @@ name = "posts"
 pageRef = "posts"
 weight = 20
 
-[[main]]
-name = "notes"
-pageRef = "notes"
-weight = 30
+# [[main]]
+# name = "notes"
+# pageRef = "notes"
+# weight = 30
 
 [[main]]
 name = "resume"
 pageRef = "resume"
-weight = 40
+weight = 30
 
 
 # [[main]]
