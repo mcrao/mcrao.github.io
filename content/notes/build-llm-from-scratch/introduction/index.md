@@ -56,7 +56,7 @@ One of the first chatbots which humans developed called ELIZA. It was supposed t
 
 Check the below video from [Runwayml](https://runwayml.com/)
 
-https://github.com/user-attachments/assets/c67645b2-fca9-44f7-984d-43aa77aef6ee
+[![Video](img/vid_banner.png)](img/runwayml.webm)
 
 These videos are not shot on camera or video recording device. These are created by using AI. This is the power of Generative AI currently.
 
