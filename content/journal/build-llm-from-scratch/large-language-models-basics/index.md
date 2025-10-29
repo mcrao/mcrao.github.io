@@ -11,7 +11,7 @@ draft: false
 
 <link rel="stylesheet" href="https://unpkg.com/open-props" />
 
-## <span style="color:var(--indigo-3)"> What is a Large Language Model (LLM)? </span>
+## What is a Large Language Model (LLM)?
 
 **<span style="color:var(--choco-3)">Neural networks designed to understand, generate and respond to human like text.</span> <span style="color:var(--violet-3)">Deep Neural Networks (DNN) trained on massive amounts of text data.</span>**
 
@@ -23,33 +23,33 @@ DNN are shown to have a huge number of applications in image detection, text gen
 
 At the core LLMs are neural network sounding more and more like humans.
 
-## <span style="color:var(--indigo-3)"> Large Language Models (LLMs) </span>
+## Large Language Models (LLMs)
 
-### What does <span style="color:var(--red-5)"> Large </span> mean in the <span style="color:var(--red-5)">Large</span> <span style="color:var(--teal-5)">Language Models</span>?
+### What does Large mean in the Large Language Models?
 
-Why not just a language model? After all it is just a model dealing with language right? Why do we specifically have this one more term called <span style="color:var(--red-5)">Large</span>?
+Why not just a language model? After all it is just a model dealing with language right? Why do we specifically have this one more term called **<span style="color:var(--red-6)">Large</span>**?
 
-The reason is because until LLMs came into the picture, model sizes were not very big and when I mean model size, I mean the number of parameters in the model. But if you know about the number of parameters which they deal with you will be shocked. **<span style="color:var(--red-5)">LLM Models have billions of parameters.</span>** It is a huge number of parameters.
+The reason is because until LLMs came into the picture, model sizes were not very big and when I mean model size, I mean the number of parameters in the model. But if you know about the number of parameters which they deal with you will be shocked. **<span style="color:var(--red-6)">LLM Models have billions of parameters.</span>** It is a huge number of parameters.
 
 ![GPT Parameters table from original paper](img/parameters.png)
 This is a table which shows the number of parameters in GPT.
 Currently GPT-5 is rumored to have 2-5 trillion parameters (officially OpenAI did not disclose).
-This is why they are called **<span style="color:var(--red-5)">Large</span>** Language Models.
+This is why they are called **<span style="color:var(--red-6)">Large</span>** Language Models.
 
-Here is another graph that shows the comparison between GPT-1 to GPT-3.
+Here is another graph that shows the comparison between **<span style="color:var(--blue-6)">GPT-1</span>** to **<span style="color:var(--blue-6)">GPT-3</span>**.
 ![Ignore decoders and token sizes in the image (will be learnt later)](img/compare.png)
 
-From GPT-1 to GPT-2 there is a factor of 10, meaning parameters increased from ~100M to ~1B.
-But from GPT-2 to GPT-3, there is a factor of 100. The parameters increased from 1.5B to 175B.
+From **<span style="color:var(--blue-6)">GPT-1</span>** to **<span style="color:var(--blue-6)">GPT-2</span>** there is a factor of `10`, meaning parameters increased from **<span style="color:var(--camo-5)">~100M</span>** to **<span style="color:var(--camo-5)">~1B</span>**.
+But from **<span style="color:var(--blue-6)">GPT-2</span>** to **<span style="color:var(--blue-6)">GPT-3</span>**, there is a factor of `100`. The parameters increased from **<span style="color:var(--camo-5)">1.5B</span>** to **<span style="color:var(--camo-5)">175B</span>**.
 
 Here is a graph which shows model size in AI type of models over the period of years:
 ![Comparison between growth of AI models](img/aimodels.png)
 
-### And why are they called **<span style="color:var(--teal-5)">Language Models</span>**?
+### And why are they called Language Models?
 
 These models do a wide range of NLP tasks: question answering, translation, sentiment analysis and much more.
 
-## <span style="color:var(--indigo-3)"> LLMs vs Earlier NLP Models </span>
+## LLMs vs Earlier NLP Models
 
 Natural Language Processing (NLP) models existed long before LLMs. The primary differences are in scope and application capability.
 
@@ -65,7 +65,7 @@ It turns out that if you train a GPT for text completion, that same architecture
 | **Scope** | Designed for **specific tasks** (e.g., one model for translation only, another for sentiment analysis only). | Can do a **wide range of NLP tasks** using the same generic architecture (e.g., a model trained for text completion also works well for translation). |
 | **Application Complexity** | Found it very difficult to perform tasks requiring complex, custom instructions, such as drafting an email based on specific requests. | These complex tasks are **trivial** (e.g., ChatGPT can draft a detailed email with custom instructions and emojis almost instantly). |
 
-## <span style="color:var(--indigo-3)"> What makes LLMs so good? Secret sauce? </span>
+## What makes LLMs so good? Secret sauce?
 ![Transformer secret sauce](img/transformer.png)
 
 What is that magic bullet that makes LLMs better than NLP? And that magic bullet or secret sauce for LLMs is **<span style="color:var(--choco-5)">Transformer Architecture</span>**. We will learn all about this secret sauce in subsequent playlist.
@@ -75,7 +75,7 @@ What is that magic bullet that makes LLMs better than NLP? And that magic bullet
 > Paper Link: https://arxiv.org/pdf/1706.03762 <br>
 > This paper has received **more than 100,000 citations in just five years**, demonstrating its revolutionary impact on artificial intelligence
 
-## <span style="color:var(--indigo-3)"> LLM vs GenAI vs Deep Learning vs Machine Learning </span>
+## LLM vs GenAI vs Deep Learning vs Machine Learning
 
 These terminologies form a nested structure, with each term being a subset of the one preceding it:
 ![LLMs vs GenAI vs DL vs ML](img/llm_genai_dl_ml.png)
@@ -92,7 +92,7 @@ These terminologies form a nested structure, with each term being a subset of th
 
 **Generative AI** can be thought of as a **mixture of LLMs plus Deep Learning**. Generative AI uses deep neural networks to create new content across various modalities (text, images, sound, video, and other media), whereas LLMs are confined only to text generation.
 
-## <span style="color:var(--indigo-3)"> Applications of LLMs </span>
+## Applications of LLMs
 
 The applications of LLMs are vast, constantly increasing, and described as having **"the sky is the limit"** potential. They generally fall into five major categories:
 
