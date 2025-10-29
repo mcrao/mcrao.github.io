@@ -9,7 +9,9 @@ date: 2025-10-20
 draft: false
 ---
 
-## Motivation
+<link rel="stylesheet" href="https://unpkg.com/open-props" />
+
+## <spam style="color:var(--indigo-3)"> Motivation </span>
 
 ### The LLM Landscape and Job Market
 
@@ -30,7 +32,7 @@ draft: false
 - **Outcome:** Students who successfully complete the playlist will feel very confident about the subject, and application parts that come later will seem "extremely easy".
 - **Career Advantage:** Understanding how to build an LLM from scratch equips learners with the detailed knowledge (e.g., about key query and values, or positional encoding) needed to succeed in job interviews, positioning them better than those who only deploy applications by cloning GitHub repositories.
 
-## Historical Context: LLMs Then and Now
+## <spam style="color:var(--indigo-3)"> Historical Context: LLMs Then and Now </span>
 
 ![One of the first chatbots which humans developed called ELIZA. It was supposed to be a therapist.](img/eliza.png)
 One of the first chatbots which humans developed called ELIZA. It was supposed to be a therapist.
@@ -39,12 +41,11 @@ One of the first chatbots which humans developed called ELIZA. It was supposed t
 - **1960s (Elisa):** One of the first chatbots, Elisa, was intended as a therapist. Demonstrations show that the conversation proceeded nowhere, illustrating the rudimentary state of NLP 50–60 years ago.
 - **Modern Day (ChatGPT):** Current LLMs like GPT are extremely useful, sophisticated, and provide immediate, relevant answers (e.g., recommending books, courses, and research papers). The series aims to guide students in building their own GPT.
 
-> [!NOTE]
 > ### Try the web version of ELIZA here
-> [Masswerk's Eliza](https://www.masswerk.at/eliza/) <br>
+> Masswerk's [Eliza](https://www.masswerk.at/eliza/) <br>
 > Read: https://www.nextpit.com/opinions/tbt-early-chatbot-eliza
 
-## Open Source vs. Closed Source Models
+## <spam style="color:var(--indigo-3)"> Open Source vs. Closed Source Models </span>
 
 ![Closed-source vs. Open-weight models](img/openclose.png)
 
@@ -52,7 +53,7 @@ One of the first chatbots which humans developed called ELIZA. It was supposed t
 - **Open Source:** Models like Meta's Llama 3.1 make the entire architecture available to the public.
 - **Current Trend:** While most models were closed source when the field boomed in 2022, by 2024, the performance gap between open-source and closed-source models is slowly decreasing. Llama 3.1, an open-source model, now performs at the same level as closed-source GPT-4, meaning all necessary information for learning is now readily available.
 
-## How important is Generative AI skill?
+## <spam style="color:var(--indigo-3)"> How important is Generative AI skill? </span>
 
 Check the below video from [Runwayml](https://runwayml.com/)
 

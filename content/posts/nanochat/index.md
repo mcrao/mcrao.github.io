@@ -34,7 +34,7 @@ The \$100 tier of nanochat utilizes a small, efficient transformer architecture:
 
 The model structure follows the standard transformer design: an input embedding layer, multiple transformer blocks, and a final output head. The output head, which maps the token embedding back to the vocabulary size (e.g., 50,000 vocab size), can be surprisingly massive in smaller models, sometimes constituting up to a third of the model’s total memory.
 
-### Image Placeholder: NanoChat Architecture Overview
+### NanoChat Architecture Overview
 {{< figure src="img/chat.png" alt="nanochat ui" >}}
 
 ### Strategic Architectural Choices
@@ -58,7 +58,7 @@ One of the most advanced components of the nanochat implementation is its sophis
 
 MuON is based on advanced theoretical research. It aims to ensure that weight matrices remain **orthonormal** throughout training. Standard matrix multiplication acts as a linear transformation that can rotate, stretch, or squish vectors. By enforcing orthonormality (where rows or columns are orthogonal), MuON ensures that the multiplication operation *only rotates* the vectors, preventing them from being stretched or squished. This is achieved through techniques like **Newton-Schulz iterations**. The theoretical benefit is that eliminating this stretching behavior allows the model to **learn faster and with less data**.
 
-### Image Placeholder: MuON vs. Standard Matrix Transformation
+### MuON vs. Standard Matrix Transformation
 {{< figure src="img/muon.png" alt="muon optimizer" >}}
 
 ---
