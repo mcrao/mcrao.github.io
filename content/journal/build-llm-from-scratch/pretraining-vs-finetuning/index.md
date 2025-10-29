@@ -14,7 +14,7 @@ draft: false
 ## Stages of building LLMs
 
 In the stages of building LLMs, there are basically two stages which we are going to look at.
-**<span style="color:var(--cyan-5)">Creating an LLM = Pre-training (1st stage) + Fine-tuning (2nd stage)</span>**
+**<span style="color:var(--pink-6)">Creating an LLM = Pre-training (1st stage) + Fine-tuning (2nd stage)</span>**
 
 We will be building our own LLM so we are going to be looking at both of these stages.
 
