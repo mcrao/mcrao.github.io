@@ -95,7 +95,7 @@ If you see the original transformer architecture (shown above) there are many at
 
 This powerful mechanism became the foundational element that later architectures like BERT and GPT would modify for more specialized tasks.
 
-## **Architectural Evolution: <span style="color:var(--choco-5)">BERT</span> vs. <span style="color:var(--blue-5)">GPT</span>**
+## **Architectural Evolution: BERT vs. GPT**
 
 The original Transformer architecture inspired later, specialized models. Let’s analyze and compare two of the most significant variations: BERT and GPT, highlighting their distinct designs and use cases.
 
@@ -114,7 +114,7 @@ The original Transformer architecture inspired later, specialized models. Let’
 | **Core Architecture** | Uses only the **Encoder** part of the Transformer. | Uses only the **Decoder** part of the Transformer. |
 | **Key Strength** | Excellent for understanding nuance and context (e.g., distinguishing word meanings), making it strong for **sentiment analysis**. | Excellent for text generation, completing sentences, and creative writing tasks. |
 
-## **Clarifying the Taxonomy: <span style="color:var(--purple-5)">Transformers</span> vs. <span style="color:var(--blue-5)">LLMs</span>**
+## **Clarifying the Taxonomy: Transformers vs. LLMs**
 
 It is crucial to use AI terminology accurately. This section deconstructs the common misconception that **<span style="color:var(--violet-4)">Transformer</span>** and **<span style="color:var(--blue-5)">LLM</span>** are interchangeable terms, based on the speaker's detailed clarification.
 
