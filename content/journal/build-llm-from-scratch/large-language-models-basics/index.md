@@ -68,7 +68,7 @@ It turns out that if you train a GPT for text completion, that same architecture
 ## What makes LLMs so good? Secret sauce?
 ![Transformer secret sauce](img/transformer.png)
 
-What is that magic bullet that makes LLMs better than NLP? And that magic bullet or secret sauce for LLMs is **<span style="color:var(--choco-5)">Transformer Architecture</span>**. We will learn all about this secret sauce in subsequent playlist.
+What is that magic bullet that makes LLMs better than NLP? And that magic bullet or secret sauce for LLMs is **<span style="color:var(--choco-5)">Transformer Architecture</span>**. We will learn all about this secret sauce in subsequent series.
 
 > ### Foundation Paper
 >The architecture originated from a seminal paper published in 2017 titled **"Attention Is All You Need,"** authored by eight researchers from Google Brain. <br>
@@ -98,7 +98,7 @@ The applications of LLMs are vast, constantly increasing, and described as havin
 
 1. **Creating New Content / New Text Generation:** Writing unique text that did not exist previously in literature, such as writing books, media articles, or highly specific content like a poem about the solar system in the format of a detective story.
 
-2. **Chatbots / Virtual Assistants:** LLMs serve as virtual assistants, enabling conversational interaction. This is a major application, with automation rapidly occurring in large sectors like banking, airlines, and hotel reservations. Completing this playlist will equip learners to develop their own chatbots.
+2. **Chatbots / Virtual Assistants:** LLMs serve as virtual assistants, enabling conversational interaction. This is a major application, with automation rapidly occurring in large sectors like banking, airlines, and hotel reservations. Completing this series will equip learners to develop their own chatbots.
 
 3. **Machine Translation:** LLMs can quickly and accurately translate text into any language (e.g., French translation demonstrated). They also offer some support for regional languages, which is an active area of research.
 
