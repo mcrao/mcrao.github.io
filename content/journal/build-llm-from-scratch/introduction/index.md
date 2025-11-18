@@ -1,6 +1,6 @@
 ---
 title: "Introduction"
-description: "The first lecture on Building LLM from Scratch"
+description: "The 1st lecture on Building LLM from Scratch"
 summary: "The notes for this series is inspired from Vizuara YouTube channel building LLM from scratch series"
 categories: []
 tags: ["introduction"]

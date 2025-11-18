@@ -1,6 +1,6 @@
 ---
 title: "Basics of Large Language Models"
-description: "The second lecture on Building LLM from Scratch"
+description: "The 2nd lecture on Building LLM from Scratch"
 summary: "The notes for this series is inspired from Vizuara YouTube channel building LLM from scratch series"
 categories: []
 tags: ["LLM basics"]

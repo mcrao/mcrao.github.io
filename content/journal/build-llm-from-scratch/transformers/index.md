@@ -1,6 +1,6 @@
 ---
 title: "Transformers"
-description: "The fourth lecture on Building LLM from Scratch"
+description: "The 4th lecture on Building LLM from Scratch"
 summary: "The notes for this series is inspired from Vizuara YouTube channel building LLM from scratch series"
 categories: []
 tags: ["transformers"]

@@ -1,6 +1,6 @@
 ---
 title: "Pre-training LLMs vs Fine-tuning LLMs"
-description: "The third lecture on Building LLM from Scratch"
+description: "The 3rd lecture on Building LLM from Scratch"
 summary: "The notes for this series is inspired from Vizuara YouTube channel building LLM from scratch series"
 categories: []
 tags: ["pre-training", "fine-tuning"]
