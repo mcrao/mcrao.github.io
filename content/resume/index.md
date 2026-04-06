@@ -55,6 +55,27 @@ layoutBackgroundHeaderSpace: false
     </tbody>
 </table>
 
+## Publications
+
+<table>
+    <thead>
+        <tr>
+            <th>Journal</th>
+            <th>Title</th>
+            <th>Description</th>
+            <th>Link</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td><img class="customEntitityLogo" src="rg.png"/></td>
+            <td>Sensitivity-Positional Co-Localization in GQA Transformers</td>
+            <td>Discovered that task-sensitive and RoPE-influential layers sit at opposite ends of Llama 3.1 8B, yet targeting both LoRA and RoPE adaptations at the sensitive layers beats all alternatives by 4–16pp across six benchmarks at just $100 compute - proving where you fine-tune matters more than why.</td>
+            <td><a href="https://doi.org/10.13140/RG.2.2.18188.88969" target="_blank">Paper</a></td>
+        </tr>
+    </tbody>
+</table>
+
 
 ## Projects
 
