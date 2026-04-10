@@ -127,3 +127,46 @@
 td {
     vertical-align: middle !important;
 }
+
+/* Table styling for better link column alignment */
+table {
+    text-align: center;
+}
+
+table th,
+table td {
+    padding: 12px 8px;
+}
+
+/* Maximize link column width on mobile */
+@media screen and (min-width: 0px) {
+    table th:last-child,
+    table td:last-child {
+        min-width: 80px;
+        width: auto;
+        text-align: center;
+        white-space: nowrap;
+    }
+}
+
+/* Increase link column width on tablets */
+@media screen and (min-width: 700px) {
+    table th:last-child,
+    table td:last-child {
+        min-width: 100px;
+        width: auto;
+        text-align: center;
+        white-space: nowrap;
+    }
+}
+
+/* Even wider on desktop */
+@media screen and (min-width: 1250px) {
+    table th:last-child,
+    table td:last-child {
+        min-width: 120px;
+        width: auto;
+        text-align: center;
+        white-space: nowrap;
+    }
+}
