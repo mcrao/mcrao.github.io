@@ -26,6 +26,11 @@ pageRef = "journal"
 weight = 30
 
 [[main]]
+name = "files"
+pageRef = "files"
+weight = 35
+
+[[main]]
 name = "resume"
 pageRef = "resume"
 weight = 40
